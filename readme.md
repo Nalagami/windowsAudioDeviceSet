@@ -35,6 +35,12 @@ CLIからwindowsの音声出力デバイスを変更できるツール
 
 なお、このリポジトリの作成者と参考ページを書いた方は別人です。
 
+ショートカットを登録する際はポリシーに気を付けて作成する必要があります。
+
+```
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy RemoteSigned -File <実行ファイルを置いているパス>\deviceSet.ps1 "<デバイスのID>"
+```
+
 # 参考
 
 https://itib.hatenablog.com/entry/2021121001
